@@ -20,3 +20,12 @@ A professional business card mobile application that displays personal contact i
 * **Advanced UI Components:** Practiced using `CircleAvatar` for circular profile pictures and nested backgrounds.
 * **List Components:** Implemented `Card` and `ListTile` to create clean, responsive contact rows containing icons and text.
 * **Custom Typography:** Learned how to import and apply custom Google fonts (`Pacifico`) to enhance text styling.
+
+### 3. Basketball Points Counter App 🏀
+An interactive sports points counter application designed to track and manage scores for two teams simultaneously.
+
+**What I learned from this project:**
+* **State Management Basics:** Stepped up from static UIs to dynamic ones by mastering `StatefulWidget` and triggering UI rebuilds with `setState()`.
+* **Horizontal & Nested Layouts:** Utilized the `Row` widget alongside nested `Column` layouts to structure a clean, side-by-side comparison screen.
+* **Interactive UI Controls:** Implemented custom functional buttons (`MaterialButton`) with precise logic to add scores (+1, +2, +3) and reset the match data instantly.
+* **Layout Separators:** Explored spatial styling using `VerticalDivider` to maintain a visual separation between competitive data columns.
