@@ -29,3 +29,13 @@ An interactive sports points counter application designed to track and manage sc
 * **Horizontal & Nested Layouts:** Utilized the `Row` widget alongside nested `Column` layouts to structure a clean, side-by-side comparison screen.
 * **Interactive UI Controls:** Implemented custom functional buttons (`MaterialButton`) with precise logic to add scores (+1, +2, +3) and reset the match data instantly.
 * **Layout Separators:** Explored spatial styling using `VerticalDivider` to maintain a visual separation between competitive data columns.
+
+
+### 4. Toku App 🗾
+A Japanese language learning application that helps users learn numbers, family members, and colors in Japanese with native pronunciation audio.
+
+**What I learned from this project:**
+* **Navigation Between Screens:** Implemented multi-screen navigation using `Navigator.push` and `MaterialPageRoute` to move between categories.
+* **Reusable Components:** Built reusable custom widgets (`Category`, `Item`) that accept parameters, making the codebase cleaner and more maintainable.
+* **Data Modeling:** Created a custom `ItemModel` class to structure data (image, Japanese text, English text, sound) and used `ListView.builder` for efficient list rendering.
+* **Audio Playback:** Integrated the `audioplayers` package to play pronunciation audio files from local assets.
