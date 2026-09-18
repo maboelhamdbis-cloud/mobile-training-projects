@@ -6,52 +6,52 @@ class FamilyMembers extends StatelessWidget {
   const FamilyMembers({Key? key}) : super(key: key);
   final List<ItemModel> members = const [
     ItemModel(
-        image: 'assets/images/family_members/family_father.png',
+        image: 'images/family_members/family_father.png',
         javText: 'Chichioya',
         enText: 'father',
         sound: 'sounds/family_members/father.wav'),
     ItemModel(
-        image: 'assets/images/family_members/family_daughter.png',
+        image: 'images/family_members/family_daughter.png',
         javText: 'Musume',
         enText: 'daughter',
         sound: 'sounds/family_members/daughter.wav'),
     ItemModel(
-        image: 'assets/images/family_members/family_grandfather.png',
+        image: 'images/family_members/family_grandfather.png',
         javText: 'Ojisan',
         enText: 'grand father',
-        sound: 'sounds/family_members/grandfather.wav'),
+        sound: 'sounds/family_members/grand father.wav'),
     ItemModel(
-        image: 'assets/images/family_members/family_mother.png',
+        image: 'images/family_members/family_mother.png',
         javText: 'Hahad',
         enText: 'mother',
         sound: 'sounds/family_members/mother.wav'),
     ItemModel(
-        image: 'assets/images/family_members/family_grandmother.png',
+        image: 'images/family_members/family_grandmother.png',
         javText: 'Sobo',
         enText: 'grand mother',
-        sound: 'sounds/family_members/grandmother.wav'),
+        sound: 'sounds/family_members/grand mother.wav'),
     ItemModel(
-        image: 'assets/images/family_members/family_older_brother.png',
+        image: 'images/family_members/family_older_brother.png',
         javText: 'Nisan',
         enText: 'older brother',
-        sound: 'sounds/family_members/older brother.wav'),
+        sound: 'sounds/family_members/older bother.wav'),
     ItemModel(
-        image: 'assets/images/family_members/family_older_sister.png',
+        image: 'images/family_members/family_older_sister.png',
         javText: 'Ane',
         enText: 'older sister',
         sound: 'sounds/family_members/older sister.wav'),
     ItemModel(
-        image: 'assets/images/family_members/family_son.png',
+        image: 'images/family_members/family_son.png',
         javText: 'Musuko',
         enText: 'son',
         sound: 'sounds/family_members/son.wav'),
     ItemModel(
-        image: 'assets/images/family_members/family_younger_brother.png',
+        image: 'images/family_members/family_younger_brother.png',
         javText: '',
         enText: 'younger brother',
-        sound: 'sounds/family_members/younger brother.wav'),
+        sound: 'sounds/family_members/younger brohter.wav'),
     ItemModel(
-        image: 'assets/images/family_members/family_younger_sister.png',
+        image: 'images/family_members/family_younger_sister.png',
         javText: '',
         enText: 'younger sister',
         sound: 'sounds/family_members/younger sister.wav'),
