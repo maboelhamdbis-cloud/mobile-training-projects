@@ -39,3 +39,13 @@ A Japanese language learning application that helps users learn numbers, family 
 * **Reusable Components:** Built reusable custom widgets (`Category`, `Item`) that accept parameters, making the codebase cleaner and more maintainable.
 * **Data Modeling:** Created a custom `ItemModel` class to structure data (image, Japanese text, English text, sound) and used `ListView.builder` for efficient list rendering.
 * **Audio Playback:** Integrated the `audioplayers` package to play pronunciation audio files from local assets.
+
+
+### 5. Flutter Tune App 🎹
+A musical xylophone-style app that plays different notes when the user taps on colored bars — like a mini piano.
+
+**What I learned from this project:**
+* **Custom Data-Driven Widgets:** Built a parameterized `Item` widget that takes a `Color` and a `sound` file, then reused it for all 7 notes without duplicating code.
+* **Flexible Layouts:** Used `Expanded` inside a `Column` to divide the screen equally among the colored bars regardless of screen size.
+* **Touch Handling:** Implemented `GestureDetector` to capture taps anywhere on a colored bar and trigger actions.
+* **Audio Package Practice:** Continued working with the `audioplayers` package for playing sound assets.
